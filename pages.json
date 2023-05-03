@@ -1,0 +1,148 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/word/eliminate-word/select-unit",
+			"style": {
+				"navigationBarTitleText": "单词消消乐单元",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/word/study-word/record",
+			"style": {
+				"navigationBarTitleText": "单词学习记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/resource/resource",
+			"style": {
+				"navigationBarTitleText": "资源",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/resource/video-detail/video-detail",
+			"style": {
+				"navigationBarTitleText": "视频详情",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+			"path": "pages/word/study-word/result",
+			"style": {
+				"navigationBarTitleText": "单词练习结果",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/word/study-word/select-unit",
+			"style": {
+				"navigationBarTitleText": "单词练习单元",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/soundmark/letter-draw/letter-draw",
+			"style": {
+				"navigationBarTitleText": "字母描红",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "账号",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/word/study-word/study-word",
+			"style": {
+				"navigationBarTitleText": "单词学习",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/soundmark/letter-reading/letter-reading",
+			"style": {
+				"navigationBarTitleText": "字母点读",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/soundmark/yb-click-learn/yb-click-learn",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/word/eliminate-word/eliminate-word",
+			"style": {
+				"navigationBarTitleText": "单词消消乐",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#e10600",
+		"backgroundColor": "#fff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/imgs/icon/home.png",
+				"selectedIconPath": "/static/imgs/icon/home.png"
+
+
+			},
+			{
+				"pagePath": "pages/resource/resource",
+				"text": "资源",
+				"iconPath": "/static/imgs/icon/resource.png",
+				"selectedIconPath": "/static/imgs/icon/resource.png"
+
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "用户",
+				"iconPath": "/static/imgs/icon/user.png",
+				"selectedIconPath": "/static/imgs/icon/user.png"
+
+			}
+		]
+	}
+}

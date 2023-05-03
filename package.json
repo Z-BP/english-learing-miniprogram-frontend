@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "crypto-es": "^1.2.7",
+    "dayjs": "^1.11.7",
+    "fast-xml-parser": "^4.1.3",
+    "js-base64": "^3.7.5",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "luch-request": "^3.0.8",
+    "path2d-polyfill": "^2.0.1",
+    "svg-path-to-canvas": "^1.11.3",
+    "uni-crazy-router": "^1.1.3",
+    "uni-vite-plugin-h5-prod-effect": "^1.0.1"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^0.15.2"
+  }
+}
